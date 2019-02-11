@@ -1,0 +1,65 @@
+#canvas{
+  display: block;
+  margin: 0 auto;
+}
+.controller{
+  margin: 0 auto;
+}
+.controller .clear-btn{
+  display: inline-block;
+  padding: 0 10px;
+  text-align: center;
+  border: 1px solid #dedede;
+  height: 28px;
+  line-height: 28px;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #333;
+  float: right;
+  vertical-align: middle;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.controller .clear-btn:hover{
+  background: red;
+  color: #fff;
+  border: 1px solid red;
+}
+
+.controller .color_btn{
+  display: inline-block;
+  margin-top: 20px;
+  height: 28px;
+  width: 40px;
+  margin-left: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+.controller .color_btn:hover{
+  border: 2px solid purple;
+}
+.controller .color_btn.active{
+  border: 2px solid purple;
+}
+.controller #black{
+  background-color: black;
+}
+
+.controller #orange{
+  background-color: orange;
+}
+
+.controller #red{
+  background-color: red;
+}
+
+.controller #blue{
+  background-color: blue;
+}
+.controller #yellow{
+  background-color: yellow;
+}
+.controller #green{
+  background-color: green;
+}
